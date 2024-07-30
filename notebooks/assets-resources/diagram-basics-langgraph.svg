@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- User -->
+  <rect x="10" y="10" width="80" height="30" fill="#ADD8E6" stroke="black" />
+  <text x="50" y="30" text-anchor="middle" font-size="14">User</text>
+  
+  <!-- Prompt -->
+  <rect x="10" y="70" width="80" height="30" fill="#90EE90" stroke="black" />
+  <text x="50" y="90" text-anchor="middle" font-size="14">Prompt</text>
+  
+  <!-- LLM -->
+  <circle cx="50" cy="150" r="20" fill="#ADD8E6" stroke="black" />
+  <text x="50" y="155" text-anchor="middle" font-size="14">LLM</text>
+  
+  <!-- Action -->
+  <rect x="10" y="200" width="80" height="30" fill="#FFDAB9" stroke="black" />
+  <text x="50" y="220" text-anchor="middle" font-size="14">Action</text>
+  
+  <!-- Tool -->
+  <circle cx="130" cy="215" r="20" fill="#FFA500" stroke="black" />
+  <text x="130" y="220" text-anchor="middle" font-size="14">Tool</text>
+  
+  <!-- Arrows -->
+  <line x1="50" y1="40" x2="50" y2="60" stroke="black" marker-end="url(#arrowhead)" />
+  <line x1="50" y1="100" x2="50" y2="120" stroke="black" marker-end="url(#arrowhead)" />
+  <line x1="50" y1="170" x2="50" y2="190" stroke="black" marker-end="url(#arrowhead)" />
+  <line x1="90" y1="215" x2="100" y2="215" stroke="black" marker-end="url(#arrowhead)" />
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <!-- Labels -->
+  <text x="200" y="30" font-size="14">System: You run in a loop of Thought, Action,</text>
+  <text x="200" y="50" font-size="14">PAUSE, Observation.</text>
+  <text x="200" y="90" font-size="14">Your available actions are:</text>
+  <text x="200" y="110" font-size="14">calculate: e.g. calculate: 4 * 7 / 3</text>
+</svg>
