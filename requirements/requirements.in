@@ -1,1 +1,10 @@
 ipykernel
+python-dotenv
+langgraph
+langchain
+langchain_core
+langchain_openai
+langchain_community
+tavily-python
+python-dotenv
+pygraphviz
