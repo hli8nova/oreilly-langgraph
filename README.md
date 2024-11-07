@@ -1,4 +1,4 @@
-# O'Reilly Live Trainining - Building Text Based Applications with the ChatGPT API and Langchain
+# O'Reilly Live Trainining - Getting Started with LangGraph
 
 ## Setup
 
