@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Getting Started with LangGraph</title>
+    <title>Module 4: Getting Started with LangGraph</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -29,6 +29,7 @@
 
         # Getting Started with LangGraph
         ## By Lucas Soares
+        11/07/2024
 
         ---
         <div class="slide">
@@ -64,7 +65,7 @@
 
         # Understanding Agentic Systems
         
-        - **Agentic Systems**: Systems that utilize large language models (LLMs) to decide the control flow of applications.
+        - **Agentic Systems**: Systems that utilize large language models (LLMs) to manage the control flow of applications.
         
         --
         
@@ -72,7 +73,7 @@
 
         --
         
-        - **Agent Loop**: Continuous decision-making process enhances agentic behavior.
+        - **Agent Loop**: Continuous decision-making process that enables agents to solve complex tasks.
 
         <p class="footnote">
             <a href='https://langchain-ai.github.io/langgraph/concepts/high_level/#deployment'> Understanding agentic systems in LangGraph. </a>
@@ -124,14 +125,14 @@
 
         --
         
-        - **Efficiency**: Reduces response time by deciding when to take actions versus when to respond directly.
+        - **Specialization**: LLM agents can be specialized with a set of tools to perform niche tasks.
 
         --
         
-        - **Enhanced User Experience**: Provides more accurate and contextually relevant responses.
+        - **Multi-Agent Collaboration**: Specialized LLM agents can collaborate to perform complex tasks.
 
         <p class="footnote">
-            <a href='https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/'> Advantages of LLM agents. </a>
+            <a href='https://blog.langchain.dev/langgraph-multi-agent-workflows/'> LangGraph: Multi-Agent Workflows </a>
         </p>
 
         ---
@@ -317,6 +318,8 @@
 
         <img src="../notebooks/assets-resources/agent-loop-langgraph-version.png" width="550">
 
+        
+
         ---
         class: center, middle
 
@@ -327,6 +330,61 @@
         </h1>
 
         ---
+        # Agentic Patterns
+
+        --
+
+        ## Plan & Execute
+
+        <img src="../notebooks/assets-resources/plan-execute.png" width="600">
+
+        ---
+
+        # Agentic Patterns
+
+        ## Supervisor
+
+        <img src="../notebooks/assets-resources/supervisor.png" width="600">
+
+        <p class="footnote">
+          <a href='https://blog.langchain.dev/langgraph-multi-agent-workflows/'>LangGraph: Multi-Agent Workflows</a>
+        </p>
+        
+        ---
+
+        # Agentic Patterns
+
+        ## Multi-Agent
+
+        <img src="../notebooks/assets-resources/multi-agent.png" width="600">
+
+        <p class="footnote">
+          <a href='https://blog.langchain.dev/langgraph-multi-agent-workflows/'>LangGraph: Multi-Agent Workflows</a>
+        </p>
+
+
+        ---
+
+        # Agentic Patterns
+
+        ## Flow Engineering
+
+        <img src="../notebooks/assets-resources/flow-engineering.png" width="600">
+
+        <p class="footnote">
+          <a href='https://arxiv.org/abs/2401.08500'>Code Generation with AlphaCodium</a>
+        </p>
+
+        ---
+        class: center, middle
+
+        <h1>
+          <span style="background-color: lightgreen">
+           Notebook Demo: Self-Reflective RAG Agent with LangGraph 
+          </span>
+        </h1>
+
+        
 </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
