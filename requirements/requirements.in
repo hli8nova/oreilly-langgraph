@@ -3,3 +3,15 @@ langgraph
 langchain-openai
 langchain-anthropic
 serpapi
+python-dotenv
+tavily-python
+langchain-nomic
+langchain_community
+tiktoken
+langchainhub
+chromadb
+langchain
+nomic[local]
+langchain-text-splitters
+beautifulsoup4
+langchain_ollama
