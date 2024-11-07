@@ -15,3 +15,4 @@ nomic[local]
 langchain-text-splitters
 beautifulsoup4
 langchain_ollama
+matplotlib
